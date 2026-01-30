@@ -4,7 +4,7 @@ Portable, ROS-agnostic UDP receiver for real-time EMG data.
 Designed to receive normalized EMG signals (e.g., TA / GAS) from a Windows-based
 EMG acquisition system and make them available on Linux or macOS.
 
-This package focuses exclusively on **reception and logging**.
+This package focuses exclusively on reception and logging.
 Acquisition, preprocessing, and EMG hardware (e.g., Delsys) are handled elsewhere.
 
 ---
@@ -20,11 +20,11 @@ Acquisition, preprocessing, and EMG hardware (e.g., Delsys) are handled elsewher
 ---
 
 ## Requirements
-- Python **3.12.0**
+- Python 3.12.0
 - macOS or Linux
 - Git
-- Sender and receiver must be on the **same private network**
-  (home Wi-Fi or mobile hotspot recommended)
+- Sender and receiver must be on the same private network
+  (home Wi-Fi or mobile hotspot recommended - NOT Public like UCLouvain or eduroam)
 
 ---
 
@@ -134,3 +134,10 @@ kill <PID>
 
 ## License
 MIT License. See LICENSE file.
+
+## Important
+
+If you could help me make the code more efficient, I would really appreciate it.
+Edwin =)
+
+
